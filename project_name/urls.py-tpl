@@ -1,0 +1,7 @@
+from django.urls import path, include
+from tropeiro.urls import get_urls
+
+urlpatterns = [
+    path("", include("api.urls")),
+    *get_urls(),
+]

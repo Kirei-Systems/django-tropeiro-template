@@ -1,0 +1,4 @@
+from tropeiro.serializers import SimpleSerializer, ModelSerializer
+from rest_framework import serializers
+
+# Create your serializers here.
