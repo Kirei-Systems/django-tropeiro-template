@@ -1,0 +1,10 @@
+[project]
+name = "{{ project_name }}"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+	"tropeiro"
+]
+
+[tool.uv.sources]
+tropeiro = { git = "https://github.com/Kirei-Systems/django-tropeiro", branch="main" }
